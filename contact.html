@@ -2,44 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My Personal Site</title>
+    <title>Contact</title>
 
     <link href="css/bootstrap.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
+
   </head>
   <body>
-    <style>
-
-    body, html{
-      height: 100%;
-      margin: 0;
-    }
-
-    img {
-      max-width: 100%;
-    }
-
-    .image-background {
-        background: url("roses.jpg");
-        background-position: center bottom;
-        background-size: cover;
-        max-width: 100%;
-        height: 100%;
-      }
-
-    .jumbotron {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      background-color: #FFFFA5;
-      color: purple;
-      }
-
-    .navbar {
-      background-color: #DE5ACC;
-      color: white;
-      }
-
-    </style>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
      <div class="container">
@@ -54,24 +23,48 @@
        </div>
        <div id="navbar" class="collapse navbar-collapse">
          <ul class="nav navbar-nav">
-           <li class="active"><a href="index.html">Home</a></li>
+           <li><a href="index.html">Home</a></li>
            <li><a href="portfolio.html">Portfolioliolio DiCaprio</a></li>
-           <li><a href="contact.html">Contact</a></li>
+           <li class="active"><a href="contact.html">Contact</a></li>
          </ul>
        </div><!--/.nav-collapse -->
      </div>
    </nav>
 
-   <div class="image-background">
+   <div class="container">
 
-     <div class="jumbotron">
+     <div class="page-header">
+       <h1>Contact</h1>
+     </div>
 
-      <div class="container">
-        <h1>Me! Me! Me! Website</h1>
+     <form class="email-form" method="POST"
+     action="https://formspree.io/bsyazzie@hotmail.com">
 
-      </div>
-    </div>
-  </div>
+       <div class="form-group">
+         <lable>Return Email</lable>
+         <input type="email" class="form-control" name="_replyto"
+          placeholder="example@gmail.com"/>
+        </div>
+
+
+       <div class="form-group">
+         <lable>Subject</lable>
+         <input type="text" class="form-control" name="_subject"
+         placeholder="I Need A Website">
+       </div>
+
+       <div class="form-group">
+
+         <label>Message</lable>
+           <textarea class="form-control" name="message" rows="4"></textarea>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Send</button>
+
+     </form>
+
+   </div>
 
   </body>
 </html>

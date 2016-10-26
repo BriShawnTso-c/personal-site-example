@@ -1,0 +1,21 @@
+body {
+  padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.email-form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+
+.jumbotron {
+  background-color: #FFFFA5;
+  color: purple;
+}
+
+.navbar {
+  background-color: #DE5ACC;
+  text-color: white;
+}
