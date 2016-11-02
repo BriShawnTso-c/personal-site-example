@@ -1,3 +1,8 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
 body {
   padding-top: 20px;
 padding-bottom: 20px;
@@ -8,14 +13,26 @@ padding-bottom: 20px;
   margin: 0 auto;
 }
 
-
-
 .jumbotron {
-  background-color: #FFFFA5;
-  color: purple;
+  background-color: #DE5ACC;
+  color: white;
 }
 
 .navbar {
-  background-color: #DE5ACC;
+  background-color: #FFFFA5;
   text-color: white;
+}
+
+/*we use these classes to add background images to divs*/
+.image-background {
+    background: url("../img/cherryblossom.jpg");
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+  }
+
+canvas {
+  position: absolute;
+  top: 10px;
 }
