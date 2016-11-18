@@ -3,9 +3,26 @@ body, html {
   height: 100%;
 }
 
+h2,h1 {
+  width: 0px;
+  height: 100%;
+  font-family: Niconne;
+}
+
 body {
   padding-top: 20px;
 padding-bottom: 20px;
+}
+
+.landingmovie {
+  width: 100%;
+  min-width: 100%;
+}
+
+.video-foreground{
+  position: absolute;
+  top: 200px;
+  color: white;
 }
 
 .email-form {
