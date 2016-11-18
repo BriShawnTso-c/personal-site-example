@@ -10,6 +10,12 @@ h1,h2 {
   font-family: lobster two;
 }
 
+h2,h1 {
+  width: 0px;
+  height: 100%;
+  font-family: Niconne;
+}
+
 body {
   padding-top: 20px;
  padding-bottom: 20px;
@@ -20,6 +26,17 @@ padding-top: 20px;
 padding-left: 40px;
 padding-right: 40px;
 padding-bottom: 20px;
+}
+
+.landingmovie {
+  width: 100%;
+  min-width: 100%;
+}
+
+.video-foreground{
+  position: absolute;
+  top: 200px;
+  color: white;
 }
 
 .email-form {
