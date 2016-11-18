@@ -1,10 +1,24 @@
 body, html {
-  margin: 0;
-  height: 100%;
+  margin-top: 20px;
+  height: 150%;
+  font-family: lobster two;
+}
+
+h1,h2 {
+  margin: 20px;
+  text-align: center;
+  font-family: lobster two;
 }
 
 body {
   padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+p {
+padding-top: 20px;
+padding-left: 40px;
+padding-right: 40px;
 padding-bottom: 20px;
 }
 
@@ -23,16 +37,38 @@ padding-bottom: 20px;
   text-color: white;
 }
 
-/*we use these classes to add background images to divs*/
-.image-background {
-    background: url("../img/cherryblossom.jpg");
-    background-position: center;
-    background-size: cover;
-    max-width: 100%;
-    height: 100%;
+  .carousel {
+    padding-bottom: 50px;
+    direction: right;
+    position: fixed;
   }
 
 canvas {
   position: absolute;
   top: 10px;
+}
+
+.container {
+  padding-top: 100%
+  padding-bottom: 100%
+}
+
+.carousel-indicators{
+  bottom:0;
+}
+
+.carousel-indicators .active{
+  background-color:#222;
+}
+
+.carousel-indicators li{
+  border-color:#222;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 30px;
 }
